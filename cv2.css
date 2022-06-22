@@ -1,0 +1,282 @@
+.card{
+    /* color: rgb(30, 70, 86); */
+    font-size:small;
+    margin-bottom: 20px;
+    /* Хорший отступ */
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
+/* .h1{
+    color: rgb(36, 3, 66);
+    margin-left: 10px;
+
+} */
+.info{
+    display: flex;
+    margin-bottom: 20px;
+}
+.info{
+    font-style:italic;
+    font-size: 100%;
+    font-weight:lighter;
+    margin: 2px;
+    /* width: 100%; */    
+}
+.info h1{
+    width: 80%;
+}
+#header{
+    padding-left: 50px;
+    padding: 0px 20px;
+    word-wrap: break-word;
+
+}
+.header{
+    padding: 0px 0px;
+}
+.header h1{
+    padding: 0px 20px;
+    padding-bottom: 0px;
+
+
+}
+.header h2{
+    padding: 0px 20px;
+    margin-top: auto;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+
+
+}
+.border_one{
+    padding: 10px 20px;
+    padding-bottom: 10px;
+
+
+}
+
+
+body{
+    background-color:#ffffff;
+    color:#079cea;
+    padding: 10px 200px;
+}
+.card_cv{
+    border-radius: 10px;
+    padding: 0px 20px;
+    padding-top: 0;
+    margin-bottom: 10px;
+    margin-top: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card{
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    background-color:#9ac5f7;
+    background:transparent;
+    color: #079cea;
+    /* background-color: #4f88cb; */
+    margin: 0;
+    /* margin-bottom: 15px; */
+    box-sizing: border-box;
+    font-size: auto;
+    font-style: italic;
+    width: 100%;
+    
+}
+.card h3{
+    margin-top: 10px;
+}
+/* .border2{
+    background-color: #73ace2;
+    border-radius: 10px;
+    border:3px solid white;
+    padding: 1px 20px;
+} */
+.back{
+    background-color: #d7f3f6;
+    color:#079cea;
+    margin: 5px;
+    padding: 5px;
+    box-sizing:border-box;
+    border-radius:20px;
+    width:fit-content;
+    
+    
+}
+
+
+a{
+    color: rgb(208, 31, 143);
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+/* Путь надо писать не к классу а к "а" */
+}
+a:active{
+    color:green;
+}
+
+
+.container{
+    margin:auto;
+    max-width: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-sizing:border-box;
+    word-wrap:break-word;
+}
+.pic{
+    border-radius: 28px;
+    width:200px;
+     /* box-shadow: 4px 4px 14px 3px rgba(0, 0, 0, .25); */
+        /* делает тень */
+    padding: 1px;
+    box-sizing:border-box;
+    word-wrap:break-word;
+
+}
+.btn{
+    background-color: burlywood;
+    border-radius:3px;
+    border:none;
+    padding: 10px;
+    color:white;
+    font-family: italic;
+}
+.btn:hover{
+    color: red;
+    cursor: pointer;
+    opacity: .7;
+}
+.list{
+    padding: 0 20px;
+    margin: px;
+}
+.list li{
+    color:rgb(164, 87, 32);
+    margin-bottom: 10px;
+    
+    
+}
+.link-list a{
+    color:green;
+    padding: 0;
+    margin: 0;
+    width: 40px;
+}
+.link-list li{
+    list-style:disc;
+с    padding-bottom: 3px;
+    margin-left: 0px;
+    padding: 5px 5px;
+
+}
+.table{
+    width: auto;
+    /* box-sizing: border-box; */
+}
+.table1{
+    padding-left: 50px;
+    padding-bottom: 0px;
+    text-align: right;
+    /* width: auto; */
+    /* box-sizing:border-box; */
+}
+.table1 td{
+    text-align: right;
+    margin-left: 50px;
+}
+#tbody{
+    width: 100px;
+}
+
+.table td:nth-child(2),.table td:nth-child(3){
+    color:rgb(224, 161, 172);
+    
+}.table tr:nth-child(1),.table tr:nth-child(2),.table tr:nth-child(3){
+    color:yellowgreen;
+}
+
+
+
+.form{
+    background-color: #f4f4f4;
+    width: auto;
+    color:lightslategrey;
+    padding: 10px;
+    margin: 5px;
+    border-radius:20px;
+    padding-right: 20px;
+
+
+}
+.form h2{
+    text-align: center;
+}
+.form-row{
+    margin-bottom: 10px;
+    display: flex;
+    
+
+    
+}
+.form-row, .form-group{
+    /* display: inline-block; */
+    margin-right: 50px;
+
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+.form-row,.form-group:last-child{
+    margin-right: 0;
+}
+.form-group label{
+    display: block;
+    font-size: 14px;
+}
+
+.form-group{
+    display: block;
+    color:rgb(72, 121, 169);
+    margin: 10px;
+    padding: 1px;
+}
+
+
+.form-group input,
+.form-group textarea{
+    width: 90%;
+    box-sizing:border-box;
+    padding:15px 0 10px;
+    /* padding-bottom: 0; */
+    margin: 3px;
+    border:none;
+    background: transparent;
+    border-bottom:1px dashed black;
+    outline: none;
+    /* синяя линия при выделении */
+    font-family: inherit;
+}
+.form-group textarea{
+    width: 95%;
+
+}
+
+@media(max-width:650px){
+    .info{
+        display: block;
+        text-align: center;
+    }
+}
+.backpic{
+    width:  10px;
+
+}
